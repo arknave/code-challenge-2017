@@ -21,18 +21,7 @@ The simple starter kit for the challenge provides a predefined means for executi
 * An entry point into executing the implementation (main)
 * Ingests the data sample into a predefined model/structure
 * Outputs all results in a predefined model/structure
-* Performs a simple evaluation of the time taken to calculate the 
-
-## Importing the project (Eclipse IDE)
-* Go to File > Import
-* Under the General folder go to Exisiting Projects into Workspace browse for Dante 2017 code challenge project 
-
-## Required Jar (Eclipse IDE)
-In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main.java. In order to add this jar follow the below steps:
-* Right click in the imported Dante code challenge project
-* Navigate to Build path > Configure Build Path
-* Under the libraries tab click add external jars
-* Browse for the json-simple-1.1.jar file 
+* Performs a simple evaluation of the time taken to calculate the results
 
 ## Required Results/Goals
 * Find the neighborhood that has the most _interests_ from unique individuals
@@ -56,3 +45,47 @@ The data represents a collection of simple user events that may be generated ove
 }
 ```
 Above you can see the model of an individual user event.
+
+## Getting Started (Eclipse IDE)
+#### Importing the project
+* Go to File > Import
+* Under the General folder go to Exisiting Projects into Workspace browse for Dante 2017 code challenge project 
+
+#### Required Jar
+In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main.java. In order to add this jar follow the below steps:
+* Right click in the imported Dante code challenge project
+* Navigate to Build path > Configure Build Path
+* Under the libraries tab click add external jars
+* Browse for the json-simple-1.1.jar file
+
+## Getting Started (Netbeans IDE)
+#### Creating the Project
+* Go to File > New Project
+* Select 'Java Project with Existing Sources' and hit next
+* Choose a directory and name for your project and hit next
+* For Source Package Folders, add the 'src' folder from the cloned repo and hit Finish
+
+#### Required Jar
+In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main.java. In order to add this jar follow the below steps:
+* Right click the Libraries folder under your project
+* Click 'Add JAR/Folder'
+* Browse and open the json-simple-1.1.jar file
+
+#### Working Directory
+* Go to Run > Set Project Configuration > customize
+* set working directory to the cloned repo (Should have input.json in the folder)
+
+## Getting Started (Command Line Compilation/Running)
+#### Version
+* to check your java and java compiler version run `java -version` and `javac -version`
+* these should be 1.8.x
+#### Compiling
+* navigate to the root of the cloned repo (should have a src folder and the input.json file)
+* for Unix use the command `javac -classpath "./src/:./json-simple-1.1.jar" ./src/Main.java`
+* for Windows use the command `javac -classpath "./src/;./json-simple-1.1.jar" ./src/Main.java`
+* src should now contain the compiled class files
+
+#### Running
+* navigate to the root of the cloned repo (should have a src folder and the input.json file)
+* for Unix use the command `java -classpath "./src:./json-simple-1.1.jar" Main`
+* for Windows use the command `java -classpath "./src;./src/depend/json-simple-1.1.jar" Main`
