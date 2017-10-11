@@ -46,7 +46,8 @@ The data represents a collection of simple user events that may be generated ove
 ```
 Above you can see the model of an individual user event.
 
-## Getting Started (Eclipse IDE)
+## Getting Started
+### Getting Started on Eclipse IDE
 #### Importing the project
 * Go to File > Import
 * Under the General folder go to Exisiting Projects into Workspace browse for Dante 2017 code challenge project 
@@ -58,7 +59,7 @@ In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main
 * Under the libraries tab click add external jars
 * Browse for the json-simple-1.1.jar file
 
-## Getting Started (Netbeans IDE)
+### Getting Started On Netbeans IDE
 #### Creating the Project
 * Go to File > New Project
 * Select 'Java Project with Existing Sources' and hit next
@@ -75,7 +76,7 @@ In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main
 * Go to Run > Set Project Configuration > customize
 * set working directory to the cloned repo (Should have input.json in the folder)
 
-## Getting Started (Command Line Compilation/Running)
+### Getting Started On Command Line (Compilation/Running)
 #### Version
 * to check your java and java compiler version run `java -version` and `javac -version`
 * these should be 1.8.x
