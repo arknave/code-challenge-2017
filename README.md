@@ -23,11 +23,11 @@ The simple starter kit for the challenge provide a predefined means for executin
 * Outputs all results in a predefined model/structure
 * Performs a simple evaluation of the time taken to calculate the results
 
-##Required Results/Goals
+## Required Results/Goals
 * Find the neighborhood that has the most interests from unique individuals
 * Find the neighborhood that has the least interests from unique individuals
 * Find the top 4 individuals that have the most interests in locations
 * Find all users that were interested in all neighborhoods (Hint: Where's Waldo and Waldina?)
 
-###What identifies interest?
+### What identifies interest?
 An individual remaining at a single location for 30 minutes or more is then defined as interested in that location, otherwise they are not interested 
