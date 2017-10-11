@@ -73,7 +73,7 @@ In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main
 
 #### Working Directory
 * Go to Run > Set Project Configuration > customize
-* set working directory to the cloned repo (Should have input.json in the folder
+* set working directory to the cloned repo (Should have input.json in the folder)
 
 ## Getting Started (Command Line Compilation/Running)
 #### Version
