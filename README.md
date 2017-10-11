@@ -29,5 +29,19 @@ The simple starter kit for the challenge provide a predefined means for executin
 * Find the top 4 individuals that have the most interests in locations
 * Find all users that were interested in all neighborhoods (Hint: Where's Waldo and Waldina?)
 
-### What identifies interest?
+### What Identifies Interest?
 An individual remaining at a single location for 30 minutes or more is then defined as interested in that location, otherwise they are not interested 
+
+## What Does The Data Look Like?
+The data represents a collection of simple user events that may be generated over a period of time from user interaction with a mobile application. You can imagine that over time this data would rapidly grow in size, but would be immensly valuable for calculating the trends and behaviors of users.
+
+```javascript
+{
+    uuid: string
+    userId: string
+    eventType: string
+    timeStamp: number
+    neighborhood?: string
+}
+```
+Above you can see the model of an individual user event.
