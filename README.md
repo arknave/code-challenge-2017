@@ -21,7 +21,18 @@ The simple starter kit for the challenge provides a predefined means for executi
 * An entry point into executing the implementation (main)
 * Ingests the data sample into a predefined model/structure
 * Outputs all results in a predefined model/structure
-* Performs a simple evaluation of the time taken to calculate the results
+* Performs a simple evaluation of the time taken to calculate the 
+
+## Importing the project (Eclipse IDE)
+* Go to File > Import
+* Under the General folder go to Exisiting Projects into Workspace browse for Dante 2017 code challenge project 
+
+## Required Jar (Eclipse IDE)
+In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main.java. In order to add this jar follow the below steps:
+* Right click in the imported Dante code challenge project
+* Navigate to Build path > Configure Build Path
+* Under the libraries tab click add external jars
+* Browse for the json-simple-1.1.jar file 
 
 ## Required Results/Goals
 * Find the neighborhood that has the most _interests_ from unique individuals
