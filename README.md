@@ -69,7 +69,7 @@ In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main
 In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main.java. In order to add this jar follow the below steps:
 * Right click the Libraries folder under your project
 * Click 'Add JAR/Folder'
-* Browse for the json-simple-1.1.jar file
+* Browse and open the json-simple-1.1.jar file
 
 #### Working Directory
 * Go to Run > Set Project Configuration > customize
