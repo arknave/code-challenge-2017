@@ -48,7 +48,7 @@ Above you can see the model of an individual user event.
 
 ## Getting Started
 ### Getting Started on Eclipse IDE
-#### Importing the project
+#### Creating (Importing) the project
 * Go to File > Import
 * Under the General folder go to Exisiting Projects into Workspace browse for Dante 2017 code challenge project 
 
