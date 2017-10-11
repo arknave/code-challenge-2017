@@ -81,9 +81,11 @@ In the repo there is a REQUIRED json-simple-1.1.jar needed to correctly run Main
 * these should be 1.8.x
 #### Compiling
 * navigate to the root of the cloned repo (should have a src folder and the input.json file)
-* use the command `javac -classpath "./src/:./json-simple-1.1.jar" ./src/Main.java` (for Unix) or `javac -classpath "./src/;./json-simple-1.1.jar" ./src/Main.java` (for Windows)
+* for Unix use the command `javac -classpath "./src/:./json-simple-1.1.jar" ./src/Main.java`
+* for Windows use the command `javac -classpath "./src/;./json-simple-1.1.jar" ./src/Main.java`
 * src should now contain the compiled class files
 
 #### Running
 * navigate to the root of the cloned repo (should have a src folder and the input.json file)
-* use the command `java -classpath "./src:./json-simple-1.1.jar" Main` (for Unix) or `java -classpath "./src;./src/depend/json-simple-1.1.jar" Main` (for Windows) to run your code
+* for Unix use the command `java -classpath "./src:./json-simple-1.1.jar" Main`
+* for Windows use the command `java -classpath "./src;./src/depend/json-simple-1.1.jar" Main`
