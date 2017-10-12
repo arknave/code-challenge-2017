@@ -94,9 +94,6 @@ public class EventAnalyzer {
 					un.put(id, e.getTimeStamp());
 					}
 				}
-			}else{
-				events.remove(i);
-				i--;
 			}
 		}
 		for(String s:u){
